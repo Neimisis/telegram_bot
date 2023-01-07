@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Khodasevich Anton",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.60.0",
+    "pm2": "^5.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
